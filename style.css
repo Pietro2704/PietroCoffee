@@ -1,0 +1,77 @@
+/*GERAAALLLL=====================================================================================*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color:rgb(255, 237, 213);
+  font-family: 'Roboto',sans-serif;
+}
+:root{
+  --cor-upper: #2D2C2A;
+  --cor-paragrafo: rgba(0, 0, 0, 0.6);
+  --cor-coffee: #995000;
+  --cor-section: #FED7AA;
+}
+header{
+  text-align: center;
+  padding: 32px 0;
+}
+ul{
+  list-style: none;
+}
+header,
+section{
+  max-width: 300px;
+  margin: 0px auto;
+}
+/*ESCREVA=======================================*/
+
+h1,h2,h3,.price{
+  text-transform: uppercase;
+  font-family: 'Roboto Serif',serif;
+  color: var(--cor-upper);
+}
+p{
+  color: var(--cor-paragrafo);
+}
+/*HEADER=======================================*/
+header h1{
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+header h1 span{
+  color: var(--cor-coffee);
+}
+header p{
+  font-size: 14px;
+  line-height: 16px;
+}
+/*SECTION=======================================*/
+section{
+  margin-bottom: 24px;
+}
+section h2{
+  background-color: var(--cor-section);
+  text-align: center;
+  padding: 8px 16px;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+ul li{
+  margin-bottom: 16px;
+  display: flex;
+}
+li.details{
+  max-width: 240px;
+}
+.details h3{
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.details p{
+  font-size: 14px;
+  line-height: 21px;
+}
